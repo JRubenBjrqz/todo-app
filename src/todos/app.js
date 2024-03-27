@@ -5,7 +5,7 @@ import html from './app.html?raw'
  */
 export const App = ( elementId ) => {
 
-    // When function App() calls itself
+    // When the function App() calls itself
     (() => {
         const app = document.createElement('div');
         app.innerHTML = html;
